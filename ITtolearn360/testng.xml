@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<listeners>
+<listener class-name= "com.itlearn.utility.ITestListenerClass"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+        <!--    <class name="com.itlearn.testcases.LoginTestDriverData"/> --> 
+  <!--      <class name="com.itlearn.testcases.DashboardTest"/> -->
+        
+        <class name="com.itlearn.testcases.PaymentTestCase"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
